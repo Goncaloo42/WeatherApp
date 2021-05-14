@@ -1,28 +1,24 @@
-# xgeeks tech assignment
+# A simple weather application
 
-In this repo you can find the tech challenge we use to evaluate our candidates as part of the interview process.
+In this repo you can find a simple React.js application.
 
-Here, you can find the designated assignment details to be evaluated:
+The WeatherTeller is a  weather application to present Current and Forecast Weather for the next 7 days.\
+The weather is automatically fetched for the user device coordinates – if the user accepts the prompt so the browser gets the coordinates – when he enters the page.\
+After that, the user can enter cities to the list and check the weather there.
 
-- [ASSIGNMENT](assignment.md)
+In the weather-teller folder you can find the application.
 
->When delivering the assignments, the closer to production ready it is, the better.
-It's a great plus if you make our job of reviewing the challenge easier by virtualizing/containerizing it so that it runs smoothly on any machine and also give detailed instructions on how to run it.
+**React.js and Docker**
 
-We will discuss the project from a few different points:
+The application was developed using the React.js framework - https://reactjs.org/docs/getting-started.html - and React Hooks - https://reactjs.org/docs/hooks-intro.html
 
-**Architecture**. You’re welcome to organize the code in a way that you believe suits best. Here, we’ll discuss possible alternatives and exchange a few ideas
+This application is deployed utilizing a Docker container - https://www.docker.com/
 
-**Engineering**. We’ll discuss this point based on the actual code: how it’s organized and written, if it’s easy to get picked up by a new engineer in a team (or in community, if we talk about open source). Of course it’s important that the code is readable, but we’ll go beyond that and talk about coherence of the codebase and its hypothetical (or potential) future.
+**Run commands**
 
-**Tooling**. How does a completely unfamiliar user with basic technical background get the code and run it? What programs are expected to be available on user’s computer before installing the tool? How could that user potentially do a micro-deploy on their own machine?
+To run the application you need to have Docker installed, and that's it! ;)
 
-**Documentation**. Good code is one that documents itself, but sometimes it isn’t enough. We’ll discuss things such as quick start guide, code style and contribution guideline. It’s important that a new team member that joins the team and gets introduced to the codebase, or another team that develops integration, has a really good time exploring the code.
-
-In order to do the assignment please **fork** this repo and perform a **PR** when ready in order for us to evaluate the assignment and continue with the interview process.
-
-Remember, we are only building a team! There will be a lot of opportunities to learn and go through peer-driven quality review, so we care more about what knowledge and experience you bring to the team. Thank you for taking the time, and we are looking forward to our next interview that will follow up on this little project.
-
-### In case of issues or doubts
-
-Please send an email to **career@xgeeks.io** and will get back to you as soon as possible
+Open the terminal, cd (change directory) to the path of the application folder “weather-teller”\
+Run the command ***docker-compose up***.\
+The app will start running, when it finishes the build open a browser on ***http://localhost:3001/***. \
+To stop the application, simply hit ***CTRL + C*** or run command ***docker-compose stop***.\
