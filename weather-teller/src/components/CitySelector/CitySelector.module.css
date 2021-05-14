@@ -1,0 +1,51 @@
+.CitySelector {
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 15px -5px;
+    position: relative;
+    background: #84c2c7;
+}
+
+
+.List {
+    font-size: 12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    max-height: 100px;
+    margin: 5px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.List::-webkit-scrollbar {
+    display: none;
+}
+  
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .CitySelector {
+        width: 140px;
+        height: 140px;
+    }
+
+    .List {
+        font-size: 15px;
+        max-height: 120px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .CitySelector {
+        width: 190px;
+        height: 190px;
+    }
+    
+    .List {
+        font-size: 18px;
+        max-height: 170px;
+    }
+}

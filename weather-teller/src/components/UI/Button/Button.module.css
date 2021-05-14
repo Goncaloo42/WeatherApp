@@ -1,0 +1,9 @@
+.Button {
+    cursor: pointer;
+    transition: 0.3s;
+    animation: ease-in-out;
+}
+
+.Button:hover {
+    font-size: 24px;
+}

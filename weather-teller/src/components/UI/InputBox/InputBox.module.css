@@ -1,0 +1,13 @@
+.InputBox {
+    margin: 5px;
+    display: flex;
+    height: 30px;
+    font-size: 19px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input[type="text"] {
+    font-size: inherit;
+    width: 80%;
+}

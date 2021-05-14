@@ -1,0 +1,116 @@
+.CurrentWeather {
+    width: 200px;
+    height: 130px;
+    position: relative;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.CurrentWeather:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 15px 0px;
+    background: #9BF1F7;
+}
+
+
+.Header {
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    margin: 1% 2%;
+    margin-top: 1%;
+    text-align: left;
+    font-size: 10px;
+}
+
+.Icon {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    height: 50%;
+    width: 100px;
+}
+
+.Description {
+    position: absolute;
+    color: gray;
+    top: 100%;
+    width: 100px;
+    font-size: 10px;
+}
+
+.Temp {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    font-size: 26px;
+}
+
+.Wind {
+    position: absolute;
+    top: 80%;
+    right: 3%;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+@media (min-width: 240px) and (min-height: 400px) {
+
+    .Temp {
+        font-size: 30px;
+    }
+
+    .Wind {
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .CurrentWeather {
+        width: 250px;
+        height: 150px;
+    }
+
+    .Header {
+        font-size: 12px;
+    }
+    
+    .Description {
+        font-size: 12px;
+    }
+    
+    .Temp {
+        font-size: 45px;
+    }
+
+    .Wind {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .CurrentWeather {
+        width: 350px;
+        height: 200px;
+    }
+
+    .Header {
+        font-size: 15px;
+    }
+    
+    .Description {
+        font-size: 15px;
+        width: 200px;
+    }
+    
+    .Temp {
+        font-size: 52px;
+    }
+
+    .Wind {
+        font-size: 18px;
+    }
+
+}

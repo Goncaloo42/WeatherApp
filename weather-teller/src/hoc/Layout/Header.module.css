@@ -1,0 +1,30 @@
+.Header {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    height: 13vmin;
+    margin-right: 50px;
+    transition: 0.3s;
+  }
+  
+   @media (hover: hover) {
+    .Logo:hover {
+      animation: logo-spin infinite 3s linear;
+    }
+  }
+  
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+  
